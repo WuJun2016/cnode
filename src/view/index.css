@@ -1,0 +1,36 @@
+#pageWrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#logo {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.headerLine {
+  height: 44px;
+}
+#nav{
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+}
+
+#nav a {
+  color: #fff;
+}
+
+#xsNav {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #fff;
+  width: auto;
+} 
+
+#main {
+  flex: 1
+}
